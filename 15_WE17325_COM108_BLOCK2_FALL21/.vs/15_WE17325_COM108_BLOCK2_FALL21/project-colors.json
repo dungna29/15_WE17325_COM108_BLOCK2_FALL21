@@ -5,7 +5,17 @@
       "ProjectGuid": "f8dd886a-584f-40c7-b8ef-5a2de15a6703",
       "DisplayName": "15_WE17325_COM108_BLOCK2_FALL21",
       "ColorIndex": 0
+    },
+    "c8f70223-acb9-4a58-b683-ebfb616b2632": {
+      "ProjectGuid": "c8f70223-acb9-4a58-b683-ebfb616b2632",
+      "DisplayName": "Bai_1.0_GioiThieuLapTrinhC",
+      "ColorIndex": 1
+    },
+    "1ebb5134-0c6f-441e-8deb-9897953e0238": {
+      "ProjectGuid": "1ebb5134-0c6f-441e-8deb-9897953e0238",
+      "DisplayName": "Bai_1.1_KhaiNiemVeBien",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }
