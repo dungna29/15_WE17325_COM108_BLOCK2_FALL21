@@ -5,20 +5,41 @@
  * 2. Biến được lưu vào RAM máy tính khi chương trình bắt đầu chạy và sẽ mất đi khi dừng chương trình
  * 3. Biến cần phải có kiểu dữ liệu ví dụ: int, float, char......
  */
+ /*
+  * Phần 1: Công thức khai báo biến
+  * + <Kiểu dữ liệu> <Tên biến>;//Cách khai báo 1
+  * + <Kiểu dữ liệu> <Tên biến 1>,<Tên biến 2>,<Tên biến 3>;//Khai báo nhiều biến có cùng kiểu dữ liệu
+  * + <Kiểu dữ liệu> <Tên biến> =(toán tử gán) <giá trị>;
+  *
+  * <Kiểu dữ liệu>: Dùng để định nghĩa kiểu dữ liệu cho giá giá trị cần lưu trữ.
+  */
+  /*
+   * Phần 2: Đặt tên biến
+   * - Tên biến đặt dễ hiểu và đúng nghĩa
+   * - Tên biến hạn chế đặt bằng tiếng việt khi đi làm về sau
+   * - Không đặt tên biến gây hiểu nhầm.
+   * - Tên biến có phân biệt chữ hoa chữ thường
+   * Gồm 3 cách đặt tên biến với 2 từ trở lên
+   * - C1: normal: sinhvien - thông thường tên biến sẽ đặt kiểu nomarl
+   * - C2: CamelCase: SinhVien
+   * - C3: Under_Score: sinh_Vien
+   */
+
+   /*
+	* Phần 3: Các kiểu dữ liệu trong lập trình
+	* Số nguyên: short,long, int
+	* Số thực: float,double
+	* Ký tự: char (Chỉ có thể lưu trữ được 1 ký tự)
+	* Chuỗi: String (Ngôn ngữ C không có String)
+	* Logic: Boolean trả ra True hoặc False nhưng trong C sẽ trả ra 0 và 1
+	*/
 int main()
-{	
-	/*
-	 * Phần 1: Công thức khai báo biến
-	 * + <Kiểu dữ liệu> <Tên biến>;//Cách khai báo 1
-	 * + <Kiểu dữ liệu> <Tên biến 1>,<Tên biến 2>,<Tên biến 3>;//Khai báo nhiều biến có cùng kiểu dữ liệu
-	 * + <Kiểu dữ liệu> <Tên biến> =(toán tử gán) <giá trị>;
-	 *
-	 * <Kiểu dữ liệu>: Dùng để định nghĩa kiểu dữ liệu cho giá giá trị cần lưu trữ.
-	 */
+{
+
 	//Ví dụ 1:
 	int a;//Khai báo 1 biến a có kiểu dữ liệu là số nguyên và không khởi tạo giá trị ban đầu
 	a = 5;//Gán giá trị cho biến a thông qua toán tử =
-	printf_s("%d \n",a);	
+	printf_s("%d \n", a);
 
 	//Chạy chương trình: Ctrl + F5
 	/*
@@ -39,7 +60,7 @@ int main()
 	 * Bài 5: Viết 1 chương trình nhập vào 3 điểm JAVA1, CSharp1, Tiếng Anh in ra các đầu điểm và điểm trung bình.
 	 */
 
-	//Bài 1:
+	 //Bài 1:
 	printf_s("==========Bai 1=========== \n");
 	int ns1 = 2000, ns2 = 2001, ns3 = 20002;//Khai báo báo nhiều biến cùng kiểu dữ liệu trên 1 dòng
 	printf_s("Nam sinh 1: %d \n", ns1);
@@ -62,7 +83,7 @@ int main()
 	printf_s("Diem lap Trinh C: %.1lf \n", diemC1);
 	printf_s("Diem Ky Nang: %.1lf \n", diemKyNangHocTap);
 	printf_s("Diem TA: %.1lf \n", diemTA);
-	
+
 	//Bài 5:
 	printf_s("==========Bai 5=========== \n");
 	double diemTBFpoly = (diemC1 + diemKyNangHocTap + diemTA) / 3;

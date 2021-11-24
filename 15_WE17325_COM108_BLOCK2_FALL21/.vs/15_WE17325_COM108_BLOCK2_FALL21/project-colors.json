@@ -15,7 +15,27 @@
       "ProjectGuid": "1ebb5134-0c6f-441e-8deb-9897953e0238",
       "DisplayName": "Bai_1.1_KhaiNiemVeBien",
       "ColorIndex": 2
+    },
+    "8ca29b1d-0e2d-4d78-8424-4a7882b64d7e": {
+      "ProjectGuid": "8ca29b1d-0e2d-4d78-8424-4a7882b64d7e",
+      "DisplayName": "Bai_1.2_CauLenhXuatRaManHinh",
+      "ColorIndex": 3
+    },
+    "3c19235a-00a7-442d-8934-62d4f40fb7fb": {
+      "ProjectGuid": "3c19235a-00a7-442d-8934-62d4f40fb7fb",
+      "DisplayName": "Bai_1.3_NhapDuLieuTuBanPhim",
+      "ColorIndex": 4
+    },
+    "f0e03e4a-142e-4e79-8fac-57cc44a65ef9": {
+      "ProjectGuid": "f0e03e4a-142e-4e79-8fac-57cc44a65ef9",
+      "DisplayName": "Bai_1.4_ToanTuTrongLapTrinh",
+      "ColorIndex": 5
+    },
+    "68bc0979-e737-4a56-b455-eb094fe71d82": {
+      "ProjectGuid": "68bc0979-e737-4a56-b455-eb094fe71d82",
+      "DisplayName": "Bai_1.5_CauDieuKien",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 7
 }
