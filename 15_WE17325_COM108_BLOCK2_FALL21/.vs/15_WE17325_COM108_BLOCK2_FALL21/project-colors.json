@@ -35,7 +35,22 @@
       "ProjectGuid": "68bc0979-e737-4a56-b455-eb094fe71d82",
       "DisplayName": "Bai_1.5_CauDieuKien",
       "ColorIndex": 6
+    },
+    "b9811cdd-c2a1-49c2-9e4e-6d67f29fdb03": {
+      "ProjectGuid": "b9811cdd-c2a1-49c2-9e4e-6d67f29fdb03",
+      "DisplayName": "Bai_1.6_SwitchCase",
+      "ColorIndex": 7
+    },
+    "89f8940c-0e5c-43a2-bd79-dfd37e282c1c": {
+      "ProjectGuid": "89f8940c-0e5c-43a2-bd79-dfd37e282c1c",
+      "DisplayName": "Bai_1.7_3LoaiVongLap",
+      "ColorIndex": 8
+    },
+    "fd3f06b2-37f3-4381-ab4d-e77b76bf54d1": {
+      "ProjectGuid": "fd3f06b2-37f3-4381-ab4d-e77b76bf54d1",
+      "DisplayName": "BAI_TAP_SWITCH_CASE",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 10
 }

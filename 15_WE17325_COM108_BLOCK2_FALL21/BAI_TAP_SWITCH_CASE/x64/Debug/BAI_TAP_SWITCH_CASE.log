@@ -1,0 +1,6 @@
+﻿  Main.c
+E:\Dungna29 Fpoly\8. Demo\Demo C\FALL21_BLOCK2\15_WE17325_COM108_BLOCK2_FALL21\15_WE17325_COM108_BLOCK2_FALL21\BAI_TAP_SWITCH_CASE\Main.c(24,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+E:\Dungna29 Fpoly\8. Demo\Demo C\FALL21_BLOCK2\15_WE17325_COM108_BLOCK2_FALL21\15_WE17325_COM108_BLOCK2_FALL21\BAI_TAP_SWITCH_CASE\Main.c(24,11): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+E:\Dungna29 Fpoly\8. Demo\Demo C\FALL21_BLOCK2\15_WE17325_COM108_BLOCK2_FALL21\15_WE17325_COM108_BLOCK2_FALL21\BAI_TAP_SWITCH_CASE\Main.c(24,11): message : the missing variadic argument 2 is required by format string '%c'
+E:\Dungna29 Fpoly\8. Demo\Demo C\FALL21_BLOCK2\15_WE17325_COM108_BLOCK2_FALL21\15_WE17325_COM108_BLOCK2_FALL21\BAI_TAP_SWITCH_CASE\Main.c(24,11): message : this argument is used as a buffer size
+  BAI_TAP_SWITCH_CASE.vcxproj -> E:\Dungna29 Fpoly\8. Demo\Demo C\FALL21_BLOCK2\15_WE17325_COM108_BLOCK2_FALL21\15_WE17325_COM108_BLOCK2_FALL21\x64\Debug\BAI_TAP_SWITCH_CASE.exe
