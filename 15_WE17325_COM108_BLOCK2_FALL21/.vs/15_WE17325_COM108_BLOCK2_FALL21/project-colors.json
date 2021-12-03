@@ -50,7 +50,27 @@
       "ProjectGuid": "fd3f06b2-37f3-4381-ab4d-e77b76bf54d1",
       "DisplayName": "BAI_TAP_SWITCH_CASE",
       "ColorIndex": 9
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "26f4c96c-13d8-4bdb-8a71-29ca0e84239f": {
+      "ProjectGuid": "26f4c96c-13d8-4bdb-8a71-29ca0e84239f",
+      "DisplayName": "MOT_VAI_VI_DU_PHAN1",
+      "ColorIndex": 10
+    },
+    "0e09b1aa-97c9-4bef-b189-5aee6d25814d": {
+      "ProjectGuid": "0e09b1aa-97c9-4bef-b189-5aee6d25814d",
+      "DisplayName": "Bai_1.8_HamVoid",
+      "ColorIndex": 11
+    },
+    "a726efcd-c20e-4e90-aeb9-6892be4d0ae6": {
+      "ProjectGuid": "a726efcd-c20e-4e90-aeb9-6892be4d0ae6",
+      "DisplayName": "CHUA_BAI_LA1_2",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 13
 }
