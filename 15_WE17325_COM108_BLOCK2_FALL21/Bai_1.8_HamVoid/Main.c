@@ -13,72 +13,58 @@
 		//Body code
   }
 */
-double a, b;//Biến toàn cục
-void menu()
+void tinhTong()//() = Hàm không tham số | void = không trả về
 {
-	printf_s("+. Phep cong \n");
-	printf_s("-. Phep tru \n");
-	printf_s("x. Phep chia \n");
-	printf_s(":. Phep nhan \n");
-	printf_s("Moi ban chon chuc nang: ");
+	int a = 5, b = 2;
+	printf_s("%d + %d = %d \n", a, b, a + b);
 }
-void nhap2So()
+/*
+ * Đối với hàm có tham số:
+ *	- Có thể truyền nhiều kiểu dữ liệu
+ *	- Khi sử dụng phải truyền đủ tham số
+ */
+void tinhTong2(int a, int b)
 {
-	printf_s("Moi ban nhap a: ");
-	scanf_s("%lf", &a);
-	printf_s("Moi ban nhap b: ");
-	scanf_s("%lf", &b);
+	printf_s("%d + %d = %d \n", a, b, a + b);
 }
-//Biến được khai báo bên trong 1 hàm được gọi là biến cục bộ. Và nó chỉ có thể được sử dụng bên trong phươn thức đó.
-//Biến được khai báo bên ngoài 1 hàm được gọi là biến toàn cục. Biến toàn cục có thể được sử dụng bên trong các hàm khác.
+void tinhNhan3So(int a,int b, int c)
+{
+	printf_s("%d x %d x %d = %d \n", a, b,c, a*b*c);
+}
+/*
+ * Tham số có thể là nhiều kiểu dữ liệu khác nhau ko nhất thiết cùng 1 kiểu
+ */
+void chucNang1(char c, double d, float f,int a)
+{
+	
+}
+/*
+ * Thông thường chúng ta phải khai báo hàm ở phía trên. Nhưng nếu như nhiều hàm sẽ gây khó quản lý code.
+ */
+void hamChucNang1();//Khai báo hàm phía trên sẽ giúp hàm Main gần phía đầu hơn
+void tinhTong5So(int a, int b, int c, int d, int e);
 int main()
 {
-	//double a, b;//Biến cục bộ
-	char choice;
-	while (1)//Vòng lặp vô hạn để lặp lại bài toán
-	{
-		
-		//Xử lý trôi lệnh ngay sau khi nhập số
-		//getchar();		
-		menu();
-		scanf_s("%c", &choice);
-		switch (choice)
-		{
-		case '+':
-			printf_s("Moi ban nhap a: ");
-			scanf_s("%lf", &a);
-			printf_s("Moi ban nhap b: ");
-			scanf_s("%lf", &b);
-			printf_s("%.0lf + %.0lf = %.0lf \n", a, b, a + b);
-			
-			break;
-		case '-':
-			printf_s("Moi ban nhap a: ");
-			scanf_s("%lf", &a);
-			printf_s("Moi ban nhap b: ");
-			scanf_s("%lf", &b);
-			printf_s("%.0lf - %.0lf = %.0lf \n", a, b, a - b);
-			getchar();
-			break;
-		case 'x':
-			printf_s("Moi ban nhap a: ");
-			scanf_s("%lf", &a);
-			printf_s("Moi ban nhap b: ");
-			scanf_s("%lf", &b);
-			printf_s("%.0lf x %.0lf = %.0lf \n", a, b, a * b);
-			
-			break;
-		case ':':
-			printf_s("Moi ban nhap a: ");
-			scanf_s("%lf", &a);
-			printf_s("Moi ban nhap b: ");
-			scanf_s("%lf", &b);
-			printf_s("%.0lf : %.0lf = %.1lf \n", a, b, a / b);
-			
-			break;
-		default:
-			printf_s("Chuc nang ban chon khong ton tai \n");
-			break;
-		}
-	}
+	printf_s("Chao cac ban den voi bai Ham \n");
+	//Phần 1: Cách gọi hàm không tham số: Phải biết tên hàm, kết thúc bằng dấu ();
+
+	//tinhTong; Sai bởi kết thúc hàm phải ();
+	tinhTong();//Gọi hàm thì kết thúc phải là ();
+
+	//Phần 2: Khi sử dụng hàm có tham số phải truyền tham số đúng vị trí và đúng kiểu dữ liệu
+	//tinhTong2(); Sai vài không truyền tham số
+	//tinhTong2(1); Sai vì truyền không đủ tham số
+	tinhTong2(10, 7);//Truyền tham số
+
+	//Bài tập tạo 1 hàm phép nhân 3 số bằng void có tham số.
+	tinhNhan3So(3, 3, 3);
+	hamChucNang1();
+}
+void hamChucNang1()
+{
+	
+}
+void tinhTong5So(int a, int b, int c, int d, int e)
+{
+	//Triển khai code như bình thường và đừng quên khai báo ở trên
 }

@@ -70,7 +70,17 @@
       "ProjectGuid": "a726efcd-c20e-4e90-aeb9-6892be4d0ae6",
       "DisplayName": "CHUA_BAI_LA1_2",
       "ColorIndex": 12
+    },
+    "f54fe7bd-eaaa-4fa4-9ee7-d2c42b04588d": {
+      "ProjectGuid": "f54fe7bd-eaaa-4fa4-9ee7-d2c42b04588d",
+      "DisplayName": "Bai_1.9_HamTraVe",
+      "ColorIndex": 13
+    },
+    "e9d9fc0d-c8f9-45e9-9e95-80bbf0ab0823": {
+      "ProjectGuid": "e9d9fc0d-c8f9-45e9-9e95-80bbf0ab0823",
+      "DisplayName": "Bai_2.0_Mang_Array",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 15
 }
