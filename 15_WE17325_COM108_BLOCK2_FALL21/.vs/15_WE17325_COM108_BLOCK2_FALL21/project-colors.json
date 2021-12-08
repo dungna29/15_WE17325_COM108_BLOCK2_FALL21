@@ -80,7 +80,17 @@
       "ProjectGuid": "e9d9fc0d-c8f9-45e9-9e95-80bbf0ab0823",
       "DisplayName": "Bai_2.0_Mang_Array",
       "ColorIndex": 14
+    },
+    "81630e0d-499f-4723-a75e-fb5afe9ebdbb": {
+      "ProjectGuid": "81630e0d-499f-4723-a75e-fb5afe9ebdbb",
+      "DisplayName": "BAI_TAP_MANG_ARRAY",
+      "ColorIndex": 15
+    },
+    "292c1fd6-728d-4b3d-a8c4-74994d3e397c": {
+      "ProjectGuid": "292c1fd6-728d-4b3d-a8c4-74994d3e397c",
+      "DisplayName": "Bai_2.1_ThuatToanSapXepNoiBot",
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 15
+  "NextColorIndex": 1
 }
