@@ -90,7 +90,12 @@
       "ProjectGuid": "292c1fd6-728d-4b3d-a8c4-74994d3e397c",
       "DisplayName": "Bai_2.1_ThuatToanSapXepNoiBot",
       "ColorIndex": 0
+    },
+    "3a34b466-3eee-47d9-a7e0-dd9e49f6fc72": {
+      "ProjectGuid": "3a34b466-3eee-47d9-a7e0-dd9e49f6fc72",
+      "DisplayName": "Bai_2.2_StringTrongC",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
